@@ -3,8 +3,7 @@ kind: Service
 metadata: 
  labels:
  app: nginx
- app.kubernetes.io/instance: 
-argocddemo
+ app.kubernetes.io/instance: argocddemo
  name: nginx
  namespace: default
 spec:
